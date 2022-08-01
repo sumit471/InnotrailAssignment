@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>box swapper</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+         
+        <table id="container">
+            <tr>
+            <td><div draggable="true" class="box">100</div></td>
+            <td><div draggable="true" class="box">200</div></td>
+            <td><div draggable="true" class="box">300</div></td>
+            </tr>
+            <tr>
+            <td><div draggable="true" class="box">400</div></td>
+            <td><div draggable="true" class="box">500</div></td>
+            <td><div draggable="true" class="box">600</div></td>
+            </tr>
+            <tr>
+            <td><div draggable="true" class="box">700</div></td>
+            <td><div draggable="true" class="box">800</div></td>
+            <td><div draggable="true" class="box">900</div></td>
+            </tr>  
+        </table> 
+
+        <div class="buttn">
+            <button id="btn" onclick="undoAction()"> Undo</button>
+            <button id="row" onclick="addRow()"> Add row</button>
+        </div>      
+
+        <script src="script.js"></script>
+    </body>
+        
+</html>
